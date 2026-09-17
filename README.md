@@ -45,16 +45,20 @@ source venv/bin/activate
 pip install openai python-dotenv
 ```
 4. Configure environment variables
+
 Create a .env file in the root directory:
 
 Kod hissəsi
+```bash
 OPENRouter_API_KEY=your_openrouter_api_key_here
+```
 ⚠️ Security Note: Never commit your .env file to version control. Ensure .env is listed inside your .gitignore.
 
 
 💻 Usage
-Run the project directly via Jupyter Notebook (.ipynb) or execute the Python script:
 
+Run the project directly via Jupyter Notebook (.ipynb) or execute the Python script:
+```bash
 Python
 import os
 from openai import OpenAI
@@ -69,6 +73,7 @@ client = OpenAI(
 
 # Start the interactive assistant
 start_chat(client)
+```
 Type your prompt to converse, and type exit or quit to end the session.
 
 📄 License
