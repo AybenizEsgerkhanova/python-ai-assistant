@@ -2,17 +2,17 @@
 
 A conversational CLI chatbot powered by OpenRouter API and LLMs, built using the OpenAI Python SDK. The assistant maintains conversation history to provide context-aware, interactive dialogues directly in the terminal.
 
-#📌 Features
+📌 Features
 OpenRouter & OpenAI SDK Integration: Seamlessly interacts with the openrouter/auto model via the openai Python library.
 Contextual Memory: Keeps track of the chat history across the session for continuous, context-aware conversations.
 Secure Environment Configuration: Utilizes python-dotenv to safely load API keys from local environment variables.
 Interactive CLI Interface: Clean terminal loop with exit commands (exit or quit) to terminate sessions gracefully.
 
-#🛠️ Prerequisites
+🛠️ Prerequisites
 Python 3.8 or higher
 An OpenRouter API key (obtainable at openrouter.ai)
 
-#🚀 Getting Started
+🚀 Getting Started
 1. Clone the repository
 git clone https://github.com/AybenizEsgerkhanova/python-ai-assistant.git
 cd python-ai-assistant
