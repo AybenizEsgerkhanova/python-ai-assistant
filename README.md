@@ -1,4 +1,5 @@
-Python AI Assistant 🤖
+# Python AI Assistant 🤖
+
 A conversational CLI chatbot powered by OpenRouter API and LLMs, built using the OpenAI Python SDK. The assistant maintains conversation history to provide context-aware, interactive dialogues directly in the terminal.
 📌 Features
 OpenRouter & OpenAI SDK Integration: Seamlessly interacts with the openrouter/auto model via the openai Python library.
