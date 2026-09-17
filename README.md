@@ -25,7 +25,8 @@ A conversational CLI chatbot powered by OpenRouter API and LLMs, built using the
 **1. Clone the repository**
 ```bash
 git clone [https://github.com/AybenizEsgerkhanova/python-ai-assistant.git](https://github.com/AybenizEsgerkhanova/python-ai-assistant.git)
-cd python-ai-assistant
+cd python-ai-assistant 
+```
 2. Set up a virtual environment (Recommended)
 
 Bash
