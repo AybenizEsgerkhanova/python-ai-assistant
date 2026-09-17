@@ -29,7 +29,7 @@ cd python-ai-assistant
 ```
 2. Set up a virtual environment (Recommended)
 
-Bash
+```bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
@@ -37,16 +37,20 @@ venv\Scripts\activate
 # macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
+```
+
 3. Install dependencies
 
-Bash
+```bash
 pip install openai python-dotenv
+```
 4. Configure environment variables
 Create a .env file in the root directory:
 
 Kod hissəsi
 OPENRouter_API_KEY=your_openrouter_api_key_here
 ⚠️ Security Note: Never commit your .env file to version control. Ensure .env is listed inside your .gitignore.
+
 
 💻 Usage
 Run the project directly via Jupyter Notebook (.ipynb) or execute the Python script:
